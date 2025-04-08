@@ -8,6 +8,13 @@ for i in range(1, 6):  # 5 rows for a nice pyramid
     for k in range(2 * i - 1):
         print("*", end="")
     print()  # New line after each row
+    
+# OUTPUT
+#     *
+#    ***
+#   *****
+#  *******
+# *********
 
 # ----------------------------------------------------------------
 
