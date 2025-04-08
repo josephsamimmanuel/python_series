@@ -93,7 +93,7 @@ else:
 n = int(input("Enter a number: "))
 m = int(input("Enter the range: "))
 
-for i in range(1, m+1): 
+for i in range(1, m+1, 1): 
     print(f"{i} x {n} = {n * i}")
 
 # ----------------------------------------------------------------
