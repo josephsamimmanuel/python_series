@@ -3,7 +3,7 @@
 print("Enter the list of elements: ")
 l = list(map(int, input().split()))
 
-if l == sorted(l):
+if l == sorted(l):  # sorted - sort the list
     print("List is sorted")
 else:
     print("List is not sorted")
